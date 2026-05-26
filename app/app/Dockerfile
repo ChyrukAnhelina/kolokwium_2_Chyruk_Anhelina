@@ -3,5 +3,5 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 COPY . .
-EXPOSE 5000app.py
+EXPOSE 5000 app.py
 CMD ["python", "app.py"]
